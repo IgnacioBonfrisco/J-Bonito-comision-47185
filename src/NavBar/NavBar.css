@@ -1,26 +1,19 @@
 /* Estilos para la barra de navegación */
+
 .Menu-nav {
-    background-color: #11326f; /* Color de fondo para la barra de navegación */
-    color: rgb(6, 1, 1); /* Color del texto */
-    padding: 10px 0; /* Espaciado interno */
+    background-color: #11326f; 
+    color: rgb(6, 1, 1); 
+    padding: 10px 0; 
 }
 
 .navbar-container {
-    max-width: 1200px; /* Ancho máximo del contenido de la barra de navegación */
-    margin: 0 auto; /* Centra el contenido horizontalmente */
+    max-width: 1200px; 
+    margin: 0 auto; 
     display: flex;
-    align-items: center; /* Centra los elementos verticalmente */
-    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+    align-items: center; 
+    justify-content: space-between; 
 }
 
-  /* Estilos para el logo */
-.logo {
-    width: 120px; /* Ancho del logo */
-    border-radius: 65%;
-
-}
-
-  /* Estilos para la lista de enlaces de navegación */
 .nav-pestañas {
     list-style: none;
     padding: 0;
@@ -28,23 +21,35 @@
 }
 
 .nav-pestañas li {
-    margin-right: 20px; /* Espacio entre los elementos de la lista */
+    margin-right: 25px;
 }
 
 .nav-pestañas a {
     text-decoration: none;
-    color: rgb(16, 3, 3); /* Color de los enlaces */
+    color: rgb(16, 3, 3); 
     font-weight: bold;
-    transition: color 0.3s ease; /* Transición suave del color al pasar el cursor */
+    transition: color 0.3s ease; 
     font-size: 25px;
 }
 
 .nav-pestañas a:hover {
-    color: #eae6e5; /* Cambia el color al pasar el cursor */
+    color: #eae6e5;
 }
 
-  /* Estilos para el ícono del carrito */
+/* CSS LOGO */
+.logo {
+    width: 120px; 
+    border-radius: 65%;
+
+}
+
+/* CSS Carrito */
 .carrito {
     list-style: none;
     font-size: 24px;
+}
+
+.cart-shop {
+    width: 200px;
+    color: black;
 }

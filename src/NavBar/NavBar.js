@@ -15,7 +15,7 @@ const Navbar = () => {
         </ul>
         <div>
         <ul className="carrito">
-            <li>
+            <li className='cart-shop'>
                 <a href="/"><CartWidget/></a>
             </li>
         </ul>

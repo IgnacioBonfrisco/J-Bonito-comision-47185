@@ -1,12 +1,12 @@
-import Saludo from './Components/Saludo';
 import './App.css';
 import Navbar from './NavBar/NavBar';
+import ItemListContainer from './Components/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
       <Navbar/> 
-      <Saludo/>
+      <ItemListContainer greeting  ="Bienvenidos a J-Bonito - Indumentaria Deportiva"/>
     </div>
   );
 }
