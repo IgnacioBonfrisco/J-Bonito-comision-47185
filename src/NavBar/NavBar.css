@@ -1,0 +1,50 @@
+/* Estilos para la barra de navegación */
+.Menu-nav {
+    background-color: #11326f; /* Color de fondo para la barra de navegación */
+    color: rgb(6, 1, 1); /* Color del texto */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+.navbar-container {
+    max-width: 1200px; /* Ancho máximo del contenido de la barra de navegación */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    display: flex;
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+}
+
+  /* Estilos para el logo */
+.logo {
+    width: 120px; /* Ancho del logo */
+    border-radius: 65%;
+
+}
+
+  /* Estilos para la lista de enlaces de navegación */
+.nav-pestañas {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-pestañas li {
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+.nav-pestañas a {
+    text-decoration: none;
+    color: rgb(16, 3, 3); /* Color de los enlaces */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transición suave del color al pasar el cursor */
+    font-size: 25px;
+}
+
+.nav-pestañas a:hover {
+    color: #eae6e5; /* Cambia el color al pasar el cursor */
+}
+
+  /* Estilos para el ícono del carrito */
+.carrito {
+    list-style: none;
+    font-size: 24px;
+}

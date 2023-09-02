@@ -1,10 +1,12 @@
 import Saludo from './Components/Saludo';
 import './App.css';
+import Navbar from './NavBar/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <Saludo/> 
+      <Navbar/> 
+      <Saludo/>
     </div>
   );
 }
