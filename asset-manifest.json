@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/J-Bonito-comision-47185/static/css/main.0ec372c9.css",
+    "main.js": "/J-Bonito-comision-47185/static/js/main.7f9e4620.js",
+    "static/js/787.46493d11.chunk.js": "/J-Bonito-comision-47185/static/js/787.46493d11.chunk.js",
+    "static/media/Logo.png": "/J-Bonito-comision-47185/static/media/Logo.d430adba9e50165c9d9f.png",
+    "index.html": "/J-Bonito-comision-47185/index.html",
+    "main.0ec372c9.css.map": "/J-Bonito-comision-47185/static/css/main.0ec372c9.css.map",
+    "main.7f9e4620.js.map": "/J-Bonito-comision-47185/static/js/main.7f9e4620.js.map",
+    "787.46493d11.chunk.js.map": "/J-Bonito-comision-47185/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ec372c9.css",
+    "static/js/main.7f9e4620.js"
+  ]
+}
