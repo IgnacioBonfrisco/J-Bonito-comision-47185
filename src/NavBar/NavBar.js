@@ -13,6 +13,8 @@ function Navbar() {
                     <li><Link to="/todos">Todos</Link></li>
                     <li><Link to="/camisetas">Camisetas</Link></li>
                     <li><Link to="/championes">Championes</Link></li>
+                    <li><Link to="/canilleras">Canilleras</Link></li>
+                    <li><Link to="/medias">Medias</Link></li>
                 </ul>
                 <div>
                     <ul className="carrito">
