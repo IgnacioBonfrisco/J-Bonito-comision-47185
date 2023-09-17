@@ -1,0 +1,61 @@
+{
+    "camisetas": [
+      {
+        "Descripcion": "Camiseta Adidas",
+        "precio": 29.99,
+        "moneda": "USD",
+        "tallas": ["S", "M", "L", "XL"]
+      },
+      {
+        "nombre": "Camiseta Nike",
+        "precio": 24.99,
+        "moneda": "USD",
+        "tallas": ["S", "M", "L", "XL"]
+      }
+    ],
+    "championes": [
+      {
+        "nombre": "Championes Adidas",
+        "precio": 59.99,
+        "moneda": "USD",
+        "tallas": ["US 6", "US 7", "US 8", "US 9"]
+      },
+      {
+        "nombre": "Championes Nike",
+        "precio": 54.99,
+        "moneda": "USD",
+        "tallas": ["US 6", "US 7", "US 8", "US 9"]
+      }
+    ],
+    "canilleras": [
+      {
+        "nombre": "Canilleras Nike",
+        "precio": 14.99,
+        "moneda": "USD",
+        "tallas": ["S", "M", "L"]
+      },
+      {
+        "nombre": "Canilleras Adidas",
+        "precio": 12.99,
+        "moneda": "USD",
+        "tallas": ["S", "M", "L"]
+      }
+    ],
+    "medias": [
+      {
+        "nombre": "Medias Nike",
+        "precio": 9.99,
+        "moneda": "USD",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Blanco", "Negro", "Gris"]
+      },
+      {
+        "nombre": "Medias Adidas",
+        "precio": 8.99,
+        "moneda": "USD",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Blanco", "Negro", "Gris"]
+      }
+    ]
+  }
+  
