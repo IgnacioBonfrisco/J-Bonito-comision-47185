@@ -1,61 +1,11 @@
-{
-    "camisetas": [
-      {
-        "Descripcion": "Camiseta Adidas",
-        "precio": 29.99,
-        "moneda": "USD",
-        "tallas": ["S", "M", "L", "XL"]
-      },
-      {
-        "nombre": "Camiseta Nike",
-        "precio": 24.99,
-        "moneda": "USD",
-        "tallas": ["S", "M", "L", "XL"]
-      }
-    ],
-    "championes": [
-      {
-        "nombre": "Championes Adidas",
-        "precio": 59.99,
-        "moneda": "USD",
-        "tallas": ["US 6", "US 7", "US 8", "US 9"]
-      },
-      {
-        "nombre": "Championes Nike",
-        "precio": 54.99,
-        "moneda": "USD",
-        "tallas": ["US 6", "US 7", "US 8", "US 9"]
-      }
-    ],
-    "canilleras": [
-      {
-        "nombre": "Canilleras Nike",
-        "precio": 14.99,
-        "moneda": "USD",
-        "tallas": ["S", "M", "L"]
-      },
-      {
-        "nombre": "Canilleras Adidas",
-        "precio": 12.99,
-        "moneda": "USD",
-        "tallas": ["S", "M", "L"]
-      }
-    ],
-    "medias": [
-      {
-        "nombre": "Medias Nike",
-        "precio": 9.99,
-        "moneda": "USD",
-        "tallas": ["S", "M", "L"],
-        "colores": ["Blanco", "Negro", "Gris"]
-      },
-      {
-        "nombre": "Medias Adidas",
-        "precio": 8.99,
-        "moneda": "USD",
-        "tallas": ["S", "M", "L"],
-        "colores": ["Blanco", "Negro", "Gris"]
-      }
+
+  [
+    {"id":1, "name":"Camiseta Adidas", "description":"Esta camiseta está confeccionada con algodón suave y transpirable que te mantendrá fresco durante todo el día.", "image":"image", "price":29.99, "currency": "USD","sizes": ["S", "M", "L", "XL"],"stock": 10, "category":"camisetas"},
+    {"id":2, "name":"Camiseta Adidas", "description":"Camiseta premium confeccionada con seda imitada de la más alta calidad para brindarte una experiencia de uso excepcional.", "image":"image", "price":24.99, "currency": "USD","sizes": ["S", "M", "L", "XL"],"stock": 10, "category":"camisetas"},
+    {"id":3, "name":"Championes Adidas", "description":"Championes de gama alta exportados de USA", "image":"image", "price":59.99, "currency": "USD","stock":10, "category":"championes" },
+    {"id":4, "name":"Championes Nike", "description":"Championes de gama alta exportados de USA", "image":"image", "price":54.99, "currency": "USD","stock":10, "category":"championes" },
+    {"id":5, "name":"Canilleras Nike", "description":"Estas canilleras están fabricadas con un núcleo de fibra de carbono resistente", "image":"image", "price":12.99, "stock":10, "category":"canilleras"},
+    {"id":6, "name":"Canilleras Adidas", "description":"Su diseño anatómico se ajusta perfectamente a la forma de tus piernas, brindando una protección óptima sin limitar tu movilidad", "image":"image", "price":14.99, "stock":10, "category":"canilleras"},
+    {"id":7, "name":"Medias Adidas", "description":"Medias de Lujo de Algodón Orgánico Suave para comodidad Inigualable", "image":"image", "price":9.99, "stock":10, "category":"medias"},
+    {"id":8, "name":"Medias Nike", "description":"Medias de Lujo de Algodón Orgánico Suave para comodidad Inigualable", "image":"image", "price":8.99, "stock":10, "category":"medias"}
     ]
-  }
-  

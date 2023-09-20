@@ -1,11 +1,36 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import arrayProductos from '../Products.json';
+import ItemList from './ItemList';
 
-const ItemListContainer = (props) => {
-return (
-    <div>
-        <h2>{props.greeting}</h2>
+const ItemListContainer = () => {
+    const [item, setItem] = useState([]);
+    const { id } = useParams();
+
+    useEffect(() => {
+    const fetchData = async () => {
+        try {
+        const data = await new Promise((resolve) => {
+            setTimeout(() => {
+            resolve(id ? arrayProductos.filter((item) => item.category === id) : arrayProductos);
+            }, 2000);
+        });
+        setItem(data);
+        } catch (error) {
+        console.log('Error:', error);
+        }
+    };
+
+    fetchData();
+    }, [id]);
+
+    return (
+        <div className="container">
+        <div className="row">
+        <ItemList item={item} />
+        </div>
     </div>
-)
-} 
+    );
+};
 
-export default ItemListContainer
+export default ItemListContainer;
